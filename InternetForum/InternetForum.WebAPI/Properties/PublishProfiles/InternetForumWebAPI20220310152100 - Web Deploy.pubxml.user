@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2z4I71awKUC+vRBr5A6KqgAAAAACAAAAAAAQZgAAAAEAACAAAABXIQ3oe2QheMmzB63Qb8yUUaH9xZw1ioWfXRmxFoESKwAAAAAOgAAAAAIAACAAAACi6NvWOQz09JEFnQSSyqoB32eotZO2oRk/oNwT168Pc4AAAADLJKVivicn1FQOJ6o2scgrBl8iFGvrIInTdfDmv8w2gREOsN2tPbc4tN0Jz5UfvPV5DKR7EhI+ia7Vd2b7R0Q+UmnEr5fXTd915LAr53aNl16e2fWkIlt5YB33VdM/kMi6HZH5NExXuNLDCi0h4qmM2Ly1WrTnuXePgU9XdW9CjkAAAADeHiAJAC129FmK1TQZ4gZyO+9VnzQaxEx6xiYwxf5qQ3DlK8Ue7V0/uR9OrdTvDf5LCZ0UuFo0/5DNE2BCHL7i</EncryptedPassword>
+    <History>True|2022-04-25T20:36:08.9233850Z;False|2022-04-25T22:22:22.4164377+02:00;False|2022-04-25T22:20:25.7401231+02:00;True|2022-03-23T15:10:56.0270292+01:00;True|2022-03-23T15:07:43.0540945+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=tcp:internetforumwebapi-admindbdbserver.database.windows.net,1433;Initial Catalog=InternetForumWebAPI_admindb;User Id=danil.t404@internetforumwebapi-admindbdbserver;Password=SQL_S3rv3r" />
+    <AzureDBConnectionStrings Include="Data Source=tcp:internetforumwebapidbserver.database.windows.net,1433;Initial Catalog=InternetForum.WebAPI_db;User Id=danil.t404@internetforumwebapidbserver;Password=SQL_S3rv3r" />
+  </ItemGroup>
+</Project>

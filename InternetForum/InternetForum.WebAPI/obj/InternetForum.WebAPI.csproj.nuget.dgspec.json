@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.WebAPI\\InternetForum.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.BLL\\InternetForum.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.BLL\\InternetForum.BLL.csproj",
+        "projectName": "InternetForum.BLL",
+        "projectPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.BLL\\InternetForum.BLL.csproj",
+        "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
+        "outputPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.DAL\\InternetForum.DAL.csproj": {
+                "projectPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.DAL\\InternetForum.DAL.csproj"
+              },
+              "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.UserManager.DAL\\InternetForum.Administration.DAL.csproj": {
+                "projectPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.UserManager.DAL\\InternetForum.Administration.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.DAL\\InternetForum.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.DAL\\InternetForum.DAL.csproj",
+        "projectName": "InternetForum.DAL",
+        "projectPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.DAL\\InternetForum.DAL.csproj",
+        "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
+        "outputPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.UserManager.DAL\\InternetForum.Administration.DAL.csproj": {
+                "projectPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.UserManager.DAL\\InternetForum.Administration.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.UserManager.DAL\\InternetForum.Administration.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.UserManager.DAL\\InternetForum.Administration.DAL.csproj",
+        "projectName": "InternetForum.Administration.DAL",
+        "projectPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.UserManager.DAL\\InternetForum.Administration.DAL.csproj",
+        "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
+        "outputPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.UserManager.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.WebAPI\\InternetForum.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.WebAPI\\InternetForum.WebAPI.csproj",
+        "projectName": "InternetForum.WebAPI",
+        "projectPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.WebAPI\\InternetForum.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
+        "outputPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.BLL\\InternetForum.BLL.csproj": {
+                "projectPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.BLL\\InternetForum.BLL.csproj"
+              },
+              "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.DAL\\InternetForum.DAL.csproj": {
+                "projectPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.DAL\\InternetForum.DAL.csproj"
+              },
+              "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.UserManager.DAL\\InternetForum.Administration.DAL.csproj": {
+                "projectPath": "C:\\MTU4Year\\FYP\\FinalTask_Epam\\InternetForum\\InternetForum.UserManager.DAL\\InternetForum.Administration.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
