@@ -39,7 +39,7 @@ bld/
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
-
+.ipynb_checkpoints
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
@@ -399,3 +399,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+**/Logs/*.txt
